@@ -1,6 +1,6 @@
 # 46snihdnat-data
 
-This repo contains zone information for `hamburgmesh.net`. This repo is automatically pulled every 15min, create a pull request to get a subdomain. The proxy is limited to `2001:bf7::/32`, so you need an ipv6 address from this range.
+This repo contains zone information for `hamburgmesh.net`. This repo is automatically pulled every 15min, create a pull request to get a subdomain. The proxy is limited to `2001:bf7::/32` and `2a03:2267::/32`, so you need an ipv6 address from one of those ranges.
 
 ## Get a subdomain
 
@@ -17,7 +17,7 @@ yourothersub    %       2001:bf7::2
 
 1. Register a domain
 2. Create an AAAA record pointing to your server
-   (Needs to be located in 2001:bf7::/32)
+   (Needs to be located in `2001:bf7::/32` or `2a03:2267::/32`)
 3. Create an A record pointing to `46.101.199.212`
 
 ## Powered by
